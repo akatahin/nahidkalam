@@ -1,0 +1,58 @@
+#content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+/* Replace with the actual background color you want */
+  }
+  
+  .profile-text {
+    text-align: left;
+    color: #FF431B; /* Or the color you want for the text */
+    max-width: 20%; /* Adjust based on your design preference */
+    margin-right: 2rem; /* Ensures some space between text and image */
+    margin-left: 20px;
+  }
+  
+  .greeting {
+    font-size: 1.5rem; /* Adjust based on your design preference */
+    margin: 0;
+  }
+  
+  .name {
+    font-size: 4rem; /* Adjust based on your design preference */
+    margin: 0;
+  }
+  
+  .title {
+    font-size: 2rem; /* Adjust based on your design preference */
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .profile-image img {
+    max-width: 50%; /* Adjust this value as needed */
+    height: auto;
+    border-radius: 50%; /* Remove or change if a round image is not desired */
+    display: block;
+    margin: auto; /* Center the image */
+    /* Optional styles */
+    border: 2px solid #FF431B; /* Example: white border */
+    box-shadow: #FF431B; /* Example: shadow for depth */
+  }
+  
+  @media (max-width: 768px) {
+    #content-wrapper {
+      flex-direction: column;
+    }
+  
+    .profile-text, .profile-image {
+      max-width: 90%;
+      margin: 1rem;
+    }
+  
+    .profile-image img {
+      max-width: 60%; /* Adjust based on your design preference */
+    }
+  }
+  

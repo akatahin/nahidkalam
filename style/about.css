@@ -1,0 +1,47 @@
+#body {
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
+
+
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Vertically align to the top */
+    justify-content: center;
+}
+
+.left {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.separator {
+    width: 2px; /* Width of the vertical line */
+    background-color: #FF431B;
+    height: 100%; /* Height of the container */
+}
+
+.right {
+    flex: 1; /* Take up 1/2 of the available space */
+    padding: 20px;
+    text-align: left;
+}
+
+/* Style for the cool-looking list items */
+.cool-li {
+ /* Text color for list items */
+    padding: 5px 10px; /* Add padding for spacing */
+    margin: 5px 0; /* Add margin for spacing between list items */
+    border-radius: 5px; /* Rounded corners for list items */
+}
+
+img {
+    width: 200px; /* Ensure the image fits within its container */
+}
+
+#exp {
+    margin-left: 20px;
+}

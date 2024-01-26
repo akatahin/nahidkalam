@@ -1,3 +1,7 @@
+.centered {
+    text-align: center;
+}
+
 .contact-info h3 {
     font-size: 18px; /* Heading font size */
     color: #FF431B; /* Heading text color */
@@ -8,8 +12,9 @@
     margin: 5px 0; /* Spacing between contact info items */
 }
 
-.contact-info strong {
-    font-weight: bold; /* Make the "strong" elements bold */
+.contact-info .icon {
+    display: inline-block; /* Keep icons aligned with text */
+    margin-right: 5px; /* Spacing after icon */
 }
 
 .contact-info a {

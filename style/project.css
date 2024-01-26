@@ -3,50 +3,56 @@
 }
 
 .project {
-    border: 1px solid #ccc;
+    border: 1px solid #FF431B;;
     padding: 20px;
-    margin-bottom: 20px;
-    color: #FF431B; /* For better readability on dark background */
-    text-align: left; /* Align text to the left */
+    margin: 25px;
+    color: #FF431B;
+    text-align: left;
 }
 
 .project h3 {
     font-size: 18px;
-    color: #FF431B; /* For better contrast against the dark background */
+    color: #FF431B;
     margin-bottom: 10px;
 }
 
 .project p, .project a {
-    color: #FF431B; /* For better readability, match the color with the project class */
+    color: #FF431B;
 }
 
 .project ul {
-    list-style: none; /* Remove default list style */
+    list-style: none;
     padding-left: 30px;
 }
 
 .project li::before {
-    content: '⚙️'; /* You can use any symbol or emoji */
-    color: #FF431B; /* Adjust the color to fit your design */
-    font-weight: bold; /* Optional: Makes the symbol/emoji bolder */
-    display: inline-block; 
-    width: 1.5em; /* Provides a uniform space for all list item markers */
-    margin-left: -1.5em; /* Pulls the marker into the edge of the content area */
+    content: '⚙️';
+    color: #FF431B;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1.5em;
 }
 
-.project .preview-window {
-    background-color: #eee;
-    height: 200px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-}
 
 #main {
     margin-left: 5%;
     width: 90%;
     max-width: 1200px;
     margin-right: 5%;
+}
+
+/* Additional styles from previous CSS */
+.projects-section h2 {
+    padding-bottom: 5px;
+}
+
+.tech-stack {
+    font-style: italic;
+    color: #666;
+    text-align: right;
+}
+
+.project ul li {
+    margin-bottom: 5px;
 }

@@ -45,3 +45,42 @@ img {
 #exp {
     margin-left: 20px;
 }
+#technical-skills {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Make the section take up the full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+#technical-skills h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Center the heading text */
+    margin-bottom: 10px; /* Add space below the heading */
+}
+
+#technical-skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align list items to the left */
+}
+
+#technical-skills ul li {
+    margin-bottom: 10px;
+}
+
+#technical-skills strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#technical-skills i {
+    margin-right: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+/* Add the Font Awesome styles */
+/* You need to include the Font Awesome CSS in your HTML */

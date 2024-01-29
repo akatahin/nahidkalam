@@ -7,6 +7,7 @@
 .eright {
     text-align: left;
     padding: 10px;
+    padding-top: 15px;
 }
 .eleft {
     margin: 10px;
@@ -17,7 +18,8 @@
     display: flex;
     align-items: flex-start; /* Vertically align to the top */
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
+   
 
 
 }
@@ -92,7 +94,7 @@ img {
 
 .vl {
     border-left: 2px solid #FF431B;
-    height: 110px;
+    height: 120px;
   }
 
 /* Add the Font Awesome styles */

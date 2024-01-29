@@ -4,7 +4,15 @@
 
 }
 
-
+.eright {
+    text-align: left;
+    padding: 10px;
+}
+.eleft {
+    margin: 1px;
+    padding: 20px;
+    text-align: right; /* Align text to the left */
+}
 
 .flex-container {
     display: flex;

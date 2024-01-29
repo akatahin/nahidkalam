@@ -3,13 +3,14 @@
 }
 
 .contact-info h3 {
-    font-size: 18px; /* Heading font size */
+    font-size: 25px; /* Heading font size */
     color: #FF431B; /* Heading text color */
     margin-bottom: 10px; /* Spacing below the heading */
 }
 
 .contact-info p {
     margin: 5px 0; /* Spacing between contact info items */
+    font-size: 18px;
 }
 
 .contact-info .icon {
@@ -26,3 +27,5 @@
 .contact-info a:hover {
     color: #000E54; /* Change link color on hover */
 }
+
+

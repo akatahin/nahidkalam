@@ -9,8 +9,7 @@
     padding: 10px;
 }
 .eleft {
-    margin: 1px;
-    padding: 20px;
+    margin: 10px;
     text-align: right; /* Align text to the left */
 }
 
@@ -18,6 +17,9 @@
     display: flex;
     align-items: flex-start; /* Vertically align to the top */
     justify-content: center;
+    margin-top: 20px;
+
+
 }
 
 .left {
@@ -63,8 +65,6 @@ img {
 }
 
 #technical-skills h2 {
-    font-size: 24px;
-    font-weight: bold;
     text-align: center; /* Center the heading text */
     margin-bottom: 10px; /* Add space below the heading */
 }
@@ -89,6 +89,11 @@ img {
     font-size: 16px;
     vertical-align: middle;
 }
+
+.vl {
+    border-left: 2px solid #FF431B;
+    height: 110px;
+  }
 
 /* Add the Font Awesome styles */
 /* You need to include the Font Awesome CSS in your HTML */
